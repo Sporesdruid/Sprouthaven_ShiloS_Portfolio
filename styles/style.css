@@ -32,15 +32,6 @@
 /* TODO: Replace these Google Fonts with the ones you want to use on your site. */
 /* Remember, the more fonts you load, the longer it can take for your page to load. */
 
-/* Eczar Font (for headers or special text) */
-@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap");
-
-/* Rubik Font (clean and modern for body text) */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-
-/* Inter Font (great for readability and minimal design) */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 /*STIX Two Text (header)*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Syne+Tactile&display=swap');
 
@@ -106,9 +97,9 @@
 
 :root {
   /* Typography */
-  --font-family-body: "Inter", sans-serif;
+  --font-family-body: "STIX Two Text", serif;
   --font-family-heading: "STIX Two Text", serif;
-  --font-family-project-title: "ESTIX Two Text", serif;
+  --font-family-project-title: "STIX Two Text", serif;
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
