@@ -101,43 +101,43 @@
   --font-family-heading: "STIX Two Text", serif;
   --font-family-project-title: "STIX Two Text", serif;
   /* Core Colours */
-  --color-text-primary: #222;
-  --color-text-secondary: #333;
-  --color-accent-primary: #5200ff;
-  --color-accent-secondary: #ff057c;
-  --color-overlay-primary: rgba(82, 0, 255, 0.5);
+  --color-text-primary: #d8a900;
+  --color-text-secondary: #e26600;
+  --color-accent-primary: #ffe23f;
+  --color-accent-secondary: #ffcb47;
+  --color-overlay-primary: rgba(244, 255, 145, 0.5);
   --color-highlight: lemonchiffon;
-  --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
+  --color-fallback: #ff9b30; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #fdfdfd;
   --color-bg-about: #f5f5f5;
   --color-bg-footer: #f5f5f5;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
+  --color-bg-holding-page: rgba(255, 213, 28, 0.6);
   /* Headings */
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #f9cd30;
+  --h2-color: #ff7300;
+  --h3-color: #f9cd30;
+  --h4-color: #c3f930;
+  --h5-color: #f93030;
+  --h6-color: #79a438;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-title:#f9cd30;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
-  --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link: #f9cd30;
+  --color-link-hover: #ff7300;
+  --color-link-visited: #a24900;
   /* Navigation */
-  --color-nav-link: #5200ff;
-  --color-nav-link-hover: #321575;
-  --color-nav-arrow: #5200ff;
-  --color-nav-arrow-hover: #000;
-  --color-nav-arrow-stroke: #5200ff;
-  --color-nav-arrow-stroke-hover: #000;
+  --color-nav-link: #f9cd30;
+  --color-nav-link-hover: #ff7300;
+  --color-nav-arrow: #ff7300;
+  --color-nav-arrow-hover: #ff7300;
+  --color-nav-arrow-stroke: #ff7300;
+  --color-nav-arrow-stroke-hover: #ff7300;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
@@ -148,7 +148,7 @@
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #5200ff;
+  --color-bg-selection: #ccff00;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -674,6 +674,7 @@ a.nav-link-primary:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
+  background: url(../assets/personal-branding/Shilosun_Background.svg);
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
