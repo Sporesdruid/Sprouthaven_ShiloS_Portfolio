@@ -101,23 +101,23 @@
   --font-family-heading: "STIX Two Text", serif;
   --font-family-project-title: "STIX Two Text", serif;
   /* Core Colours */
-  --color-text-primary: #d8a900;
+  --color-text-primary: #644f02;
   --color-text-secondary: #e26600;
-  --color-accent-primary: #ffe23f;
-  --color-accent-secondary: #ffcb47;
+  --color-accent-primary: #ff853f;
+  --color-accent-secondary: #39651e;
   --color-overlay-primary: rgba(244, 255, 145, 0.5);
-  --color-highlight: lemonchiffon;
+  --color-highlight: rgb(148, 133, 0);
   --color-fallback: #ff9b30; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #fdfdfd;
-  --color-bg-about: #f5f5f5;
-  --color-bg-footer: #f5f5f5;
+  --color-bg: #fefce7;
+  --color-bg-about: #261009;
+  --color-bg-footer: #261009;
   --color-bg-holding-page: rgba(255, 213, 28, 0.6);
   /* Headings */
-  --h1-color: #f9cd30;
+  --h1-color: #6b5b21;
   --h2-color: #ff7300;
-  --h3-color: #f9cd30;
-  --h4-color: #c3f930;
+  --h3-color: #7f7f0d;
+  --h4-color: #9fca28;
   --h5-color: #f93030;
   --h6-color: #79a438;
   /* Special Text Colours */
@@ -125,30 +125,30 @@
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title:#f9cd30;
+  --color-text-project-title:#655312;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #f9cd30;
-  --color-link-hover: #ff7300;
+  --color-link: #a38133;
+  --color-link-hover: #dbb14f;
   --color-link-visited: #a24900;
   /* Navigation */
-  --color-nav-link: #f9cd30;
-  --color-nav-link-hover: #ff7300;
-  --color-nav-arrow: #ff7300;
+  --color-nav-link: #a38133;
+  --color-nav-link-hover: #e3a618;
+  --color-nav-arrow: #a24900;
   --color-nav-arrow-hover: #ff7300;
   --color-nav-arrow-stroke: #ff7300;
   --color-nav-arrow-stroke-hover: #ff7300;
   /* Components */
-  --color-bg-full-width: #f5f5f5;
-  --color-bg-project-description: #f5f5f5;
+  --color-bg-full-width: #261009;
+  --color-bg-project-description: #261009;
   --color-bg-sidebar-project: orangered;
-  --color-bg-sidebar-work: lemonchiffon;
+  --color-bg-sidebar-work: rgb(222, 163, 38);
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
   --color-gradient-project-details: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #ccff00;
+  --color-bg-selection: #dbb14f;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -158,8 +158,8 @@
   --duration-slow: 0.75s; /* Prominent animations (page transitions) */
   /* Rounded Corners */
   --radius-sm: 0.5rem; /* Small interactive elements */
-  --radius-md: 1rem; /* Cards/containers */
-  --radius-lg: 2rem; /* Large decorative elements */
+  --radius-md: 0rem; /* Cards/containers */
+  --radius-lg: 0rem; /* Large decorative elements */
   --radius-full: 50%; /* Circles/pills */
   /* Padding Scale */
   --padding-tiny: 0.5rem; /* Micro-spacing: icon padding, toggle switches */
@@ -417,7 +417,7 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: lightblue;
+  background: #fefce7;
   padding: var(--padding-small);
 }
 
@@ -437,7 +437,7 @@ svg {
 /* Heading Styles (h1 - h6) */
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 4rem;
   font-family: var(--font-family-heading);
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -453,8 +453,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1.325rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
   line-height: 1.2;
   color: var(--h3-color);
 }
@@ -671,19 +671,22 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh; /* Takes up most of the screen height */
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  background: url(../assets/personal-branding/Shilosun_Background.svg);
+  align-items: center;
+  background-repeat: no-repeat;
+  background: url("../assets/personal-branding/sprout_haven_main.svg")
+  
 }
+
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
 }
 
 .nav-branding {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
   padding: var(--padding-small);
   align-items: center;
 }
@@ -691,6 +694,8 @@ a.nav-link-primary:hover {
 .nav-branding-group {
   display: flex;
   flex-direction: row;
+  padding: var(--padding-small);
+  align-items: center;
 }
 .nav-branding-item {
   padding: var(--padding-tiny);
