@@ -110,12 +110,12 @@
   --color-fallback: #ff9b30; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #fefce7;
-  --color-bg-about: #261009;
-  --color-bg-footer: #261009;
+  --color-bg-about: #fefce7;
+  --color-bg-footer: #fefce7;
   --color-bg-holding-page: rgba(255, 213, 28, 0.6);
   /* Headings */
   --h1-color: #6b5b21;
-  --h2-color: #ff7300;
+  --h2-color: #655312;
   --h3-color: #7f7f0d;
   --h4-color: #9fca28;
   --h5-color: #f93030;
@@ -134,14 +134,14 @@
   /* Navigation */
   --color-nav-link: #a38133;
   --color-nav-link-hover: #e3a618;
-  --color-nav-arrow: #a24900;
-  --color-nav-arrow-hover: #ff7300;
+  --color-nav-arrow: #655312;
+  --color-nav-arrow-hover: #e3a618;
   --color-nav-arrow-stroke: #ff7300;
   --color-nav-arrow-stroke-hover: #ff7300;
   /* Components */
-  --color-bg-full-width: #261009;
-  --color-bg-project-description: #261009;
-  --color-bg-sidebar-project: orangered;
+  --color-bg-full-width: #fefce7;
+  --color-bg-project-description: #fefce7;
+  --color-bg-sidebar-project: #655312;
   --color-bg-sidebar-work: rgb(222, 163, 38);
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
   --color-gradient-project-details: linear-gradient(
@@ -685,6 +685,7 @@ a.nav-link-primary:hover {
   align-items: center;
   background-repeat: no-repeat;
   background: url("../assets/personal-branding/sprouthaven-main.svg");
+  background-repeat: no-repeat;
 }
 
 .hero-header {
