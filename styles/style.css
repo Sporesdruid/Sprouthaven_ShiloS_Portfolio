@@ -682,18 +682,16 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background: url("../assets/personal-branding/sprouthaven-main.svg");
-  background-repeat: no-repeat;
 }
 
 .hero-header {
   margin: 0 auto;
   min-height: 6rem; /* Space reserved for logo + nav */
+  width: 100%;
 }
 
 .nav-branding {
@@ -701,6 +699,8 @@ a.nav-link-primary:hover {
   flex-direction: row;
   padding: var(--padding-small);
   align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .nav-branding-group {
@@ -723,11 +723,15 @@ a.nav-link-primary:hover {
   display: flex;
   flex-direction: column;
   flex: 1;
-  gap: 3rem;
+  /* gap: 3rem; */
   align-items: center;
   justify-content: center;
   padding: var(--padding-small);
   text-align: center; /* Keeps text centered */
+  background-repeat: no-repeat;
+  background: url("../assets/personal-branding/sprouthaven-main.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-icon {
@@ -1472,12 +1476,12 @@ to keep your styles reusable and consistent.
     min-height: 100vh;
   }
 
-  .hero-headline-wrapper {
+  /* .hero-headline-wrapper {
     padding-top: var(--padding-jumbo);
     padding-bottom: var(--padding-jumbo);
     padding-left: var(--padding-ultra);
     padding-right: var(--padding-ultra);
-  }
+  } */
   .error-headline-wrapper {
     padding-top: var(--padding-small);
     padding-bottom: var(--padding-small);
