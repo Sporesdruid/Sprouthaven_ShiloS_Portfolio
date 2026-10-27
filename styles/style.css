@@ -35,6 +35,9 @@
 /*STIX Two Text (header)*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Syne+Tactile&display=swap");
 
+/*Fell English (body)*/
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Inter:opsz,wght@14..32,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Syne+Tactile&display=swap");
+
 /* 
 ██ ███    ███ ██████   ██████  ██████  ████████      ██████ ███████ ███████ 
 ██ ████  ████ ██   ██ ██    ██ ██   ██    ██        ██      ██      ██      
@@ -97,11 +100,11 @@
 
 :root {
   /* Typography */
-  --font-family-body: "STIX Two Text", serif;
+  --font-family-body: "IM Fell English", serif;
   --font-family-heading: "STIX Two Text", serif;
   --font-family-project-title: "STIX Two Text", serif;
   /* Core Colours */
-  --color-text-primary: #644f02;
+  --color-text-primary: #a24900;
   --color-text-secondary: #e26600;
   --color-accent-primary: #ff853f;
   --color-accent-secondary: #39651e;
@@ -114,7 +117,7 @@
   --color-bg-footer: #fefce7;
   --color-bg-holding-page: rgba(255, 213, 28, 0.6);
   /* Headings */
-  --h1-color: #6b5b21;
+  --h1-color: #a24900;
   --h2-color: #655312;
   --h3-color: #7f7f0d;
   --h4-color: #9fca28;
@@ -123,8 +126,8 @@
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
-  --color-text-project-description: #222;
-  --color-text-project-sidebar: #222;
+  --color-text-project-description: #a24900;
+  --color-text-project-sidebar: #a24900;
   --color-text-project-title: #655312;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
@@ -141,7 +144,7 @@
   /* Components */
   --color-bg-full-width: #fefce7;
   --color-bg-project-description: #fefce7;
-  --color-bg-sidebar-project: #655312;
+  --color-bg-sidebar-project: #fefce7;
   --color-bg-sidebar-work: rgb(222, 163, 38);
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
   --color-gradient-project-details: linear-gradient(
