@@ -108,14 +108,14 @@
   --color-text-secondary: #e26600;
   --color-accent-primary: #ff853f;
   --color-accent-secondary: #39651e;
-  --color-overlay-primary: rgba(244, 255, 145, 0.5);
+  --color-overlay-primary: rgba(236, 122, 0, 0.5);
   --color-highlight: rgb(148, 133, 0);
   --color-fallback: #ff9b30; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #fefce7;
   --color-bg-about: #fefce7;
   --color-bg-footer: #fefce7;
-  --color-bg-holding-page: rgba(255, 213, 28, 0.6);
+  --color-bg-holding-page: rgba(219, 102, 0, 0.6);
   /* Headings */
   --h1-color: #a24900;
   --h2-color: #655312;
@@ -727,7 +727,7 @@ a.nav-link-primary:hover {
   padding: var(--padding-small);
   text-align: center; /* Keeps text centered */
   background-repeat: no-repeat;
-  background: url("../assets/placeholder-portrait.jpg");
+  background: url("../assets/personal-branding/sprouthaven-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
