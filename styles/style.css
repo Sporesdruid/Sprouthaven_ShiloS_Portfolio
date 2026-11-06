@@ -1565,7 +1565,7 @@ to keep your styles reusable and consistent.
 
   /* Container for project description on desktop */
   .project-description-container {
-    padding: var(--padding-ultra);
+    padding-left: var(--padding-ultra);
   }
   .section-container {
     width: 80%; /* Adjust this width for larger screens if needed */
