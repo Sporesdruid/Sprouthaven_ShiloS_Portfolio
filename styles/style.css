@@ -115,21 +115,21 @@
   --color-bg: #fefce7;
   --color-bg-about: #fefce7;
   --color-bg-footer: #fefce7;
-  --color-bg-holding-page: rgba(219, 102, 0, 0.6);
+  --color-bg-holding-page: rgba(79, 0, 0, 0.6);
   /* Headings */
   --h1-color: #a24900;
   --h2-color: #655312;
   --h3-color: #7f7f0d;
-  --h4-color: #9fca28;
-  --h5-color: #f93030;
-  --h6-color: #79a438;
+  --h4-color: #7f7f0d;
+  --h5-color: #7f7f0d;
+  --h6-color: #7f7f0d;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
-  --color-text-project-category: #ffffff;
+  --color-text-project-category: #fefce7;
   --color-text-project-description: #a24900;
   --color-text-project-sidebar: #a24900;
   --color-text-project-title: #655312;
-  --color-text-work-grid-title: #ffffff;
+  --color-text-work-grid-title: #fefce7;
   /* Link States */
   --color-link: #a38133;
   --color-link-hover: #dbb14f;
@@ -146,13 +146,8 @@
   --color-bg-project-description: #fefce7;
   --color-bg-sidebar-project: #fefce7;
   --color-bg-sidebar-work: rgb(222, 163, 38);
-  --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
-  --color-gradient-project-details: linear-gradient(
-    -225deg,
-    #ff057c 0%,
-    #8d0b93 50%,
-    #321575 100%
-  );
+  --color-gradient-hero: #fefce7;
+  --color-gradient-project-details: #fefce7;
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;

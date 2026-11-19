@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Chrono's Cluster | Music Cover by Sprout Haven</title>
+    <meta
+      name="description"
+      content="The illustrated cover for Chrono's Cluster, a song made for the universe Fyellza by Far."
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/branding-images/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/branding-images/favicon.png"
+    />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body class="project-1">
+    <header class="hero-header">
+      <ul class="nav-branding">
+        <li><a href="about.html" class="custom-navigation">About</a></li>
+        <li>
+          <a href="index.html" class="custom-navigation">Main</a>
+        </li>
+        <li class="nav-branding-logo">
+          <a href="index.html"
+            ><img
+              src="assets/branding-images/logo.svg"
+              alt="Describe your project"
+          /></a>
+        </li>
+        <li>
+          <a href="sketchbook.html" class="custom-navigation">Play</a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/@SproutHaven"
+            class="custom-navigation"
+            >Youtube</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <div class="project-video-container">
+      <iframe
+        class="responsive-iframe"
+        width="1920"
+        height="1080"
+        src="https://www.youtube.com/embed/E5j2_J8IquE?si=8VJdqPQ2j3Ve3ihv"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="project-wrapper-full-width">
+      <aside class="project-full-width">
+        <div class="project-description-container gap-large">
+          <div class="project-title col-2">
+            <h2>Chrono's Cluster</h2>
+            <h3>Cover for a song by Far on Youtube</h3>
+          </div>
+          <div class="project-description col-2">
+            <p>
+              Chrono's Cluster is a mound of dormant flesh, taller than
+              mountains, and halts the growth of any nature close by. Despite
+              everything, humans have found a home inside it's holes and
+              crevices.
+            </p>
+            <p>This was a commission done for Far in 2026.</p>
+          </div>
+        </div>
+      </aside>
+      <main class="project-full-width">
+        <figure class="project-image">
+          <img
+            src="assets/portfolio-thumbnails/project-chronoscluster.jpg"
+            width="1920"
+            height="1080"
+            loading="lazy"
+            alt="An illustration of the cluster."
+          />
+        </figure>
+        <div class="project-description-container"></div>
+      </main>
+    </div>
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>Contact Me</h2>
+        <p>
+          Interested in working with me? Reach me over at
+          sprouthaven1@gmail.com!
+        </p>
+      </li>
+
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item">
+            <a
+              href="https://www.instagram.com/sprout_haven_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://www.youtube.com/@SproutHaven"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Youtube</a
+            >
+          </li>
+
+          <li class="footer-item">
+            <a
+              href="https://www.tumblr.com/blog/sprouthaven"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Tumblr</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="footer-full-width">
+        <p><a href="#top">Back to top</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. ₊✩‧₊ Hand crafted by
+          Sprout Haven ₊✩‧₊
+        </p>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
+    </ul>
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-cloudking.html">Next Project</a>
+    </div>
+
+    <script>
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+  </body>
+</html>

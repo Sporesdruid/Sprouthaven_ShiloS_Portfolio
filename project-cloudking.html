@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cloud King| Illustration by Sprout Haven</title>
+    <meta
+      name="description"
+      content="An illustrated character design exercise for the Cloud King, a once powerful spirit of the sky who is now powerless and tormented by his past decisions."
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/branding-images/favicon.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/branding-images/favicon.png"
+    />
+    <meta property="og:image" content="screenshot.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body class="project-1">
+    <header class="hero-header">
+      <ul class="nav-branding">
+        <li><a href="about.html" class="custom-navigation">About</a></li>
+        <li>
+          <a href="index.html" class="custom-navigation">Main</a>
+        </li>
+        <li class="nav-branding-logo">
+          <a href="index.html"
+            ><img
+              src="assets/branding-images/logo.svg"
+              alt="Describe your project"
+          /></a>
+        </li>
+        <li>
+          <a href="sketchbook.html" class="custom-navigation">Play</a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/@SproutHaven"
+            class="custom-navigation"
+            >Youtube</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <figure class="project-image">
+      <img
+        src="assets/portfolio-thumbnails/Portfolio3_CloudKing.jpg"
+        width="1920"
+        height="1080"
+        loading="lazy"
+        alt="Describe your project"
+      />
+    </figure>
+
+    <div class="project-wrapper-full-width">
+      <aside class="project-full-width">
+        <div class="project-description-container gap-large">
+          <div class="project-title col-2">
+            <h2>The Cloud King</h2>
+            <h3>Inkblot Character Exercise</h3>
+          </div>
+          <div class="project-description col-2">
+            <p>
+              My favorite way to find an unexpected part of my subconscious is
+              to make an adorable little character out of an ink splatter.
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <figure class="project-image">
+        <img
+          src="assets/portfolio-thumbnails/portfolio-cloudking/cloudking3.jpg"
+          width="1920"
+          height="1080"
+          loading="lazy"
+          alt="Describe your project"
+        />
+      </figure>
+
+      <figure class="project-image">
+        <img
+          src="assets/portfolio-thumbnails/portfolio-cloudking/cloudking2.jpg"
+          width="1920"
+          height="1080"
+          loading="lazy"
+          alt="Describe your project"
+        />
+      </figure>
+
+      <figure class="project-image">
+        <img
+          src="assets/portfolio-thumbnails/portfolio-cloudking/cloudking1.jpg"
+          width="1920"
+          height="1080"
+          loading="lazy"
+          alt="Describe your project"
+        />
+      </figure>
+      <div class="project-description-container">
+        <ul class="project-navigation"></ul>
+      </div>
+    </div>
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>Contact Me</h2>
+        <p>
+          Interested in working with me? Reach me over at
+          sprouthaven1@gmail.com!
+        </p>
+      </li>
+      <li class="footer-highlights">
+        <h2>Awards & Recognition</h2>
+        <ul class="footer-awards-list">
+          <li class="footer-item">
+            <p>2026 - CAPIC Rodeo 18 Top 10</p>
+          </li>
+        </ul>
+      </li>
+
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item">
+            <a
+              href="https://www.instagram.com/sprout_haven_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://www.youtube.com/@SproutHaven"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Youtube</a
+            >
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://www.tumblr.com/blog/sprouthaven"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Tumblr</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="footer-full-width">
+        <p><a href="#top">Back to top</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. ₊✩‧₊ Hand crafted by
+          Sprout Haven ₊✩‧₊
+        </p>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
+    </ul>
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-memory-lane.html">Next Project</a>
+    </div>
+
+    <script>
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+  </body>
+</html>
