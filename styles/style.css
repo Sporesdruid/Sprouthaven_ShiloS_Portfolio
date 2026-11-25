@@ -202,7 +202,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
+    url("../assets/branding-images/up-cursor.svg"), auto !important; /* Custom cursor (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
@@ -594,6 +594,8 @@ a:visited {
 /* Hover — when a user hovers their mouse over the link */
 a:hover {
   color: var(--color-link-hover);
+  cursor:
+    url("../assets/branding-images/cursor-hover.svg"), auto !important; /* Custom cursor (change the URL below to use your own) */
 }
 
 /* Focus — when a link is focused (keyboard navigation) */
