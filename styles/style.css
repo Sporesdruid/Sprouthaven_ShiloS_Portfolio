@@ -38,6 +38,11 @@
 /*Fell English (body)*/
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Inter:opsz,wght@14..32,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Syne+Tactile&display=swap");
 
+/*Alegreya Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=IM+Fell+English:ital@0;1&family=Inter:opsz,wght@14..32,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Syne+Tactile&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* 
 ██ ███    ███ ██████   ██████  ██████  ████████      ██████ ███████ ███████ 
 ██ ████  ████ ██   ██ ██    ██ ██   ██    ██        ██      ██      ██      
@@ -100,13 +105,13 @@
 
 :root {
   /* Typography */
-  --font-family-body: "IM Fell English", serif;
+  --font-family-body: "Balsamiq Sans", sans-serif;
   --font-family-heading: "STIX Two Text", serif;
   --font-family-project-title: "STIX Two Text", serif;
   /* Core Colours */
   --color-text-primary: #a24900;
   --color-text-secondary: #e26600;
-  --color-accent-primary: #ff853f;
+  --color-accent-primary: #fefce7;
   --color-accent-secondary: #39651e;
   --color-overlay-primary: rgba(236, 122, 0, 0.5);
   --color-highlight: rgb(148, 133, 0);
@@ -445,7 +450,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-family: var(--font-family-heading);
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -466,14 +471,14 @@ h4 {
 }
 
 h5 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h5-color);
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h6-color);
@@ -516,6 +521,9 @@ sup {
   max-width: 40ch; /* Optimal line length for readability (~40 characters) */
   text-wrap: balance; /* Prevents awkward line breaks (like elegant typography) */
   margin-inline: auto; /* Horizontally centers the text in its container */
+}
+.hero-subheadline {
+  color: var(--color-accent-primary); /* Uses your brand's dominant color */
 }
 
 /* Large project title — appears on individual project pages */
@@ -1405,7 +1413,7 @@ to keep your styles reusable and consistent.
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 6rem;
   }
 
   h2 {
@@ -1459,6 +1467,8 @@ to keep your styles reusable and consistent.
 
   .nav-branding {
     flex-direction: row;
+    font-size: 1.1rem;
+    text-transform: uppercase;
   }
 
   .nav-branding-logo {
@@ -1516,7 +1526,7 @@ to keep your styles reusable and consistent.
   .portfolio,
   .project-wrapper,
   .work-sidebar-wrapper {
-    padding: var(--padding-small);
+    padding: var(--padding-large);
   }
 
   /* Project Page Flex Direction on Large Devices */

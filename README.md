@@ -103,7 +103,7 @@ After making these changes, visit your live site to see the changes in action!
 | Page Name                 | Description                                    |
 | ------------------------- | ---------------------------------------------- |
 | `index.html`              | Holding page (optional intro/splash)           |
-| `index.html`               | Classic work grid layout                       |
+| `index.html`              | Classic work grid layout                       |
 | `work-sidebar.html`       | Work grid with sticky sidebar navigation       |
 | `work-titles-below.html`  | Project titles below thumbnails                |
 | `work-clean.html`         | Clean version with no overlays                 |
@@ -136,7 +136,7 @@ After making these changes, visit your live site to see the changes in action!
 
 ### 🧪 Optional Add-Ons
 
-- ✏️ sketchbook.html: Perfect for showcasing sketches, early concepts, or behind-the-scenes creative processes.
+- ✏️ play.html: Perfect for showcasing sketches, early concepts, or behind-the-scenes creative processes.
 - 🎮 play.html: A fun section to showcase other projects, photography, etc.
 - 📄 resume.html: A professional CV or resume to highlight your work experience and skills.
 
